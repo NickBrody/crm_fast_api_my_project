@@ -1,7 +1,7 @@
 from fastapi import APIRouter, Depends, HTTPException
 from typing import List
 from schemas.schemas import Application, ApplicationCreate, ApplicationUpdate
-from service.service import ApplicationService
+from service.application_service import ApplicationService
 from .dependencies import get_async_session
 from sqlalchemy.ext.asyncio import AsyncSession
 

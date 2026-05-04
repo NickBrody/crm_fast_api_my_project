@@ -1,4 +1,4 @@
-from models.sqlalchemy import ApplicationRepository
+from models.application_repository import ApplicationRepository
 from schemas.schemas import ApplicationCreate, ApplicationUpdate
 
 class ApplicationService:
